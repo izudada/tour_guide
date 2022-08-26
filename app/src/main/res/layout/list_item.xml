@@ -4,9 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="99dp"
+    android:layout_height="115dp"
     android:background="@color/white"
-    android:minHeight="99dp"
+    android:minHeight="115dp"
     android:padding="5dp">
 
     <ImageView
