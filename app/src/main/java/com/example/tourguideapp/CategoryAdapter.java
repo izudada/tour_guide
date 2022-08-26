@@ -31,7 +31,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new EventsFragment();
         } else if (position == 1) {
             return new ResortsFragment();
-        } else if (position == 2) {
+        } else {
             return new RestaurantsFragment();
         }
     }
@@ -48,13 +48,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_numbers);
+            return mContext.getString(R.string.event_fragment);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_family);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.resort_fragment);
         } else {
-            return mContext.getString(R.string.category_phrases);
+            return mContext.getString(R.string.restaurant_fragment);
         }
     }
 }
