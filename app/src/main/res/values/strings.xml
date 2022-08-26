@@ -133,11 +133,11 @@
     </string>
 
     <!-- Event Strings   -->
-    <string name="abc_1.0_event_title">ABC 1.0</string>
-    <string name="abc_1.0_event_description">
+    <string name="abc_event_title">ABC 1.0</string>
+    <string name="abc_event_description">
         Sat, August 27, 2022 10:00 AM – 5:00 PM WAT
     </string>
-    <string name="abc_1.0_event_address">
+    <string name="abc_event_address">
         Atrium Event Centre, Stadium Road,Port Harcourt,Nigeria
     </string>
     <string name="bigdealparty_event_title">BIGDEAL PARTY</string>
