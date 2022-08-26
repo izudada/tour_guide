@@ -132,5 +132,62 @@
         33 Apara Road, off Evo Road, GRA Phase 2, Port Harcourt
     </string>
 
-
+    <!-- Event Strings   -->
+    <string name="abc_1.0_event_title">ABC 1.0</string>
+    <string name="abc_1.0_event_description">
+        Sat, August 27, 2022 10:00 AM – 5:00 PM WAT
+    </string>
+    <string name="abc_1.0_event_address">
+        Atrium Event Centre, Stadium Road,Port Harcourt,Nigeria
+    </string>
+    <string name="bigdealparty_event_title">BIGDEAL PARTY</string>
+    <string name="bigdealparty_event_description">
+        Sat, September 17, 2022 7:00 PM – 10:00 PM WAT
+    </string>
+    <string name="bigdealparty_event_address">
+        6 ilom street Portharcourt, Rivers state, Nigeria
+    </string>
+    <string name="the_medicine_event_title">We The Medicine</string>
+    <string name="the_medicine_event_description">
+        Sat, September 3, 2022 12:00 PM – 1:00 PM CST
+    </string>
+    <string name="the_medicine_event_address">
+        Online event
+    </string>
+    <string name="travel_indoors_event_title">Travel Indoors!</string>
+    <string name="travel_indoors_event_description">
+        Sun, Oct 23, 2022, 1:00 PM EDT
+    </string>
+    <string name="travel_indoors_event_address">
+        Online event
+    </string>
+    <string name="race_and_equity_event_title">Let's Talk</string>
+    <string name="race_and_equity_event_description">
+        Thu, September 22, 2022 5:00 PM – 6:30 PM EDT
+    </string>
+    <string name="race_and_equity_event_address">
+        Online event
+    </string>
+    <string name="online_dance_party_event_title">ONLINE DANCE PARTY</string>
+    <string name="online_dance_party_event_description">
+        Fri, 26 Aug 2022, 10:00 PM – Sat, 27 Aug 2022, 2:00 AM EDT
+    </string>
+    <string name="online_dance_party_event_address">
+        Online event
+    </string>
+    <string name="love_and_sex_in_christianity_event_title">Love and Sex in Christianity</string>
+    <string name="love_and_sex_in_christianity_event_description">
+        Fri, 9 September 2022 11:00 – 17:00 WAT
+    </string>
+    <string name="love_and_sex_in_christianity_event_address">
+        La Xquis Uriel, Restaurant 19 Onne Road opposite former Airtel, GRA Port Harcourt
+    </string>
+    <string name="international_leadership_summit_event_title">INTERNATIONAL LEADERSHIP SUMMIT 2022</string>
+    <string name="international_leadership_summit_event_description">
+        Fri, 26 Aug 2022, 17:00 WAT
+    </string>
+    <string name="international_leadership_summit_event_address">
+        FOUNDATION FAITH CHURCH, MARINE BASE 2 Block 9, Road 5, Prime Rose Estate,
+        Okrika Water front Port Harcourt, Rivers State
+    </string>
 </resources>
