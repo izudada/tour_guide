@@ -190,4 +190,9 @@
         FOUNDATION FAITH CHURCH, MARINE BASE 2 Block 9, Road 5, Prime Rose Estate,
         Okrika Water front Port Harcourt, Rivers State
     </string>
+
+    <!-- Fragments Titles  -->
+    <string name="restaurant_fragment">Restaurants</string>
+    <string name="event_fragment">Events</string>
+    <string name="resort_fragment">Resorts</string>
 </resources>
