@@ -47,4 +47,90 @@
     <string name="best_premier_hotel_address">
         Km 16, Aba Expressway, Opposite Intels Camp, Port Harcourt, Rivers State
     </string>
+
+    <!-- Restaurant Strings   -->
+    <string name="asia_town_restaurant_title">Asia Town</string>
+    <string name="asia_town_restaurant_description">
+        Open Monday - Sunday 09:00 am - 10:00 pm
+    </string>
+    <string name="asia_town_restaurant_address"> 24 Forces Avenue, Old GRA, Port Harcourt </string>
+    <string name="spice_route_restaurant_title">Spice Route</string>
+    <string name="spice_route_restaurant_description">
+        Open Monday - Sunday 11:00 am - 10:30 pm
+    </string>
+    <string name="spice_route_restaurant_address">
+        Port Harcourt Mall, 1 Azikiwe Road, Old GRA, Port Harcourt
+    </string>
+    <string name="the_wok_chinese_restaurant_title">The Wok Chinese Restaurant</string>
+    <string name="the_wok_chinese_restaurant_description">
+        Open Monday - Sunday 12:00 pm - 10:00 pm
+    </string>
+    <string name="the_wok_chinese_restaurant_address">
+        3D Wonodi Street, GRA Phase 3, Port Harcourt
+    </string>
+    <string name="south_66_restaurant_title">The Wok Chinese Restaurant</string>
+    <string name="south_66_restaurant_description">
+        Open Monday - Sunday 12:00 pm - 10:00 pm
+    </string>
+    <string name="south_66_restaurant_address">
+        Evo Road, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="cornerstore_cafe_restaurant_title">CornerStore Cafe</string>
+    <string name="cornerstore_cafe_restaurant_description">
+        Open Monday - Sunday 07:00 am - 10:00 pm
+    </string>
+    <string name="cornerstore_cafe_restaurant_address">
+        14 Tombia street, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="crinkles_n_cream_restaurant_title">Crinkles 'n' Cream</string>
+    <string name="crinkles_n_cream_restaurant_description">
+        Open Monday - Sunday 08:00 am - 06:00 pm
+    </string>
+    <string name="crinkles_n_cream_restaurant_address">
+        118 Bodo Street, Off Woji Road , GRA Phase 2, Port Harcourt
+    </string>
+    <string name="genesis_sky_bar_restaurant_title">Genesis Sky Bar</string>
+    <string name="genesis_sky_bar_restaurant_description">
+        Open Monday - Sunday 12:00 pm - 01:00 am
+    </string>
+    <string name="genesis_sky_bar_restaurant_address">
+        Genesis Centre, 52 Tombia Street, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="the_coffee_shop_restaurant_title">The Coffee Shop</string>
+    <string name="the_coffee_shop_restaurant_description">
+        Open Monday - Sunday 08:00 am - 09:00 pm
+    </string>
+    <string name="the_coffee_shop_restaurant_address">
+        20 Birabi Street, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="woodhouse_cafe_restaurant_title">Woodhouse Cafe</string>
+    <string name="woodhouse_cafe_restaurant_description">
+        Open Monday - Sunday 08:00 am - 10:00 pm
+    </string>
+    <string name="woodhouse_cafe_restaurant_address">
+        3 Louis Drive, Off Abacha road, Opp Nextime Supermarket, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="piazza_restaurant_title">Piazza</string>
+    <string name="piazza_restaurant_description">
+        Open Monday - Sunday 12:00 pm - 12:00 am
+    </string>
+    <string name="piazza_restaurant_address">
+        152 Tombia Street, GRA Phase 1, Port Harcourt
+    </string>
+    <string name="buns_and_batter_restaurant_title">Buns & Batter</string>
+    <string name="buns_and_batter_restaurant_description">
+        Open Monday - Sunday 07:30 am - 08:30 pm
+    </string>
+    <string name="buns_and_batter_restaurant_address">
+        45 King Perekule Street, GRA Phase 2, Port Harcourt
+    </string>
+    <string name="yogurberry_restaurant_title">Yogurberry</string>
+    <string name="yogurberry_restaurant_description">
+        Open Monday - Sunday 10:00 am - 08:00 pm
+    </string>
+    <string name="yogurberry_restaurant_address">
+        33 Apara Road, off Evo Road, GRA Phase 2, Port Harcourt
+    </string>
+
+
 </resources>
