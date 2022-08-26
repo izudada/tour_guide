@@ -43,5 +43,4 @@ Troubleshoot
 ## Useful resources
 
 - [Android Basics Nanodegree by Google - Udacity](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) - Android Basics Nanodegree Program
-- [DEBUG PORT on Heroku](https://stackoverflow.com/questions/15693192/heroku-node-js-error-web-process-failed-to-bind-to-port-within-60-seconds-of) - How to get heroku port instance
 
