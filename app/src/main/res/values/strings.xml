@@ -1,5 +1,50 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Hotel Strings   -->
+    <string name="bougainvillea_hotels_title">Bougainvillea Hotels</string>
+    <string name="bougainvillea_hotels_description"> ₦27,500</string>
+    <string name="bougainvillea_hotels_address">
+        Abacha Road , GRA III, Port harcourt, Nigeria,
+        123456 Port Harcourt, Nigeria
+    </string>
+    <string name="visa_karena_hotels_title">Visa Karena Hotels</string>
+    <string name="visa_karena_hotels_description"> ₦43,680</string>
+    <string name="visa_karena_hotels_address">
+        3 Wonodi street, off Olu-Obasanjo Road G R A Phase III,
+        Port Harcourt, Rivers State, Nigeria
+    </string>
+    <string name="golden_tulip_hotel_title">Golden Tulip Port Harcourt</string>
+    <string name="golden_tulip_hotel_description"> ₦50,000</string>
+    <string name="golden_tulip_hotel_address"> 1c Evo Crescent, Gra 2, Port Harcourt </string>
+    <string name="labake_cottage_hotel_title">Labake Cottage Hotel</string>
+    <string name="labake_cottage_hotel_description"> ₦8, 375</string>
+    <string name="labake_cottage_hotel_address">
+        3 Rumuola Link Road Near Rumuola Bus Stop, Port Harcourt, Nigeria
+    </string>
+    <string name="landmark_hotel_title">Landmark Hotel</string>
+    <string name="landmark_hotel_description"> ₦30,820</string>
+    <string name="landmark_hotel_address">
+        4, Worlu Street, Off Olu-Obasanjo Road, Port Harcourt
+    </string>
+    <string name="the_crib_lifestyle_hotel_title">The Crib Lifestyle Hotel</string>
+    <string name="the_crib_lifestyle_hotel_description"> ₦18, 891</string>
+    <string name="the_crib_lifestyle_hotel_address">
+        17B William Jumbo Close, Old GRA, Port Harcourt, Rivers State
+    </string>
+    <string name="juanita_hotels_title">Juanita Hotels</string>
+    <string name="juanita_hotels_description"> ₦47, 326</string>
+    <string name="juanita_hotels_address">
+        28 Herbert Macaulay Road, Amadi Flats, Port Harcourt
+    </string>
+    <string name="christine_apartment_hotel_ltd_title">Christine Apartment Hotel Ltd</string>
+    <string name="christine_apartment_hotel_ltd_description"> ₦44,463</string>
+    <string name="christine_apartment_hotel_ltd_address">
+        Mirari Estate 12C Benjamin Okpara Street, Off Olu-Obasanjo Road, Port Harcourt
+    </string>
+    <string name="best_premier_hotel_title">Best Premier Port Harcourt Hotel</string>
+    <string name="best_premier_hotel_description"> ₦31,631</string>
+    <string name="best_premier_hotel_address">
+        Km 16, Aba Expressway, Opposite Intels Camp, Port Harcourt, Rivers State
+    </string>
 </resources>
