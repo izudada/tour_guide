@@ -1,6 +1,6 @@
 package com.example.tourguideapp;
 
-public class Word {
+public class Guide {
     /** Title of the tourist center */
     private int mTitle;
 
@@ -15,8 +15,8 @@ public class Word {
 
     /** states if an image is present or not*/
     private static int NO_IMAGE_PROVIDED = -1;
-//
-    public  Word(int title, int description, int address, int imageResourceId) {
+    //
+    public  Guide(int title, int description, int address, int imageResourceId) {
         mTitle = title;
         mAddress = address;
         mDescription = description;

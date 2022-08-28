@@ -23,57 +23,57 @@ public class ResortsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        final ArrayList<Word> words = new ArrayList<Word>();
+        final ArrayList<Guide> words = new ArrayList<Guide>();
 
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.juanita_hotels_title,
                 R.string.juanita_hotels_description,
                 R.string.juanita_hotels_address,
                 R.drawable.juanita_hotels
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.landmark_hotel_title,
                 R.string.landmark_hotel_description,
                 R.string.landmark_hotel_address,
                 R.drawable.landmark_hotel
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.visa_karena_hotels_title,
                 R.string.visa_karena_hotels_description,
                 R.string.visa_karena_hotels_address,
                 R.drawable.visa_karena_hotels
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.best_premier_hotel_title,
                 R.string.best_premier_hotel_description,
                 R.string.best_premier_hotel_address,
                 R.drawable.best_premier_hotel
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.golden_tulip_hotel_title,
                 R.string.golden_tulip_hotel_description,
                 R.string.golden_tulip_hotel_address,
                 R.drawable.golden_tulip_hotel
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.labake_cottage_hotel_title,
                 R.string.labake_cottage_hotel_description,
                 R.string.labake_cottage_hotel_address,
                 R.drawable.labake_ottage_hotel
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.bougainvillea_hotels_title,
                 R.string.bougainvillea_hotels_description,
                 R.string.bougainvillea_hotels_address,
                 R.drawable.bougainvillea_hotels
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.the_crib_lifestyle_hotel_title,
                 R.string.the_crib_lifestyle_hotel_description,
                 R.string.the_crib_lifestyle_hotel_address,
                 R.drawable.the_crib_lifestyle_hotel
         ));
-        words.add(new Word(
+        words.add(new Guide(
                 R.string.christine_apartment_hotel_ltd_title,
                 R.string.christine_apartment_hotel_ltd_description,
                 R.string.christine_apartment_hotel_ltd_address,
@@ -85,7 +85,7 @@ public class ResortsFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        WordAdapter adapter = new WordAdapter(getActivity(), words);
+        GuideAdapter adapter = new GuideAdapter(getActivity(), words);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
