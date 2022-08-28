@@ -27,57 +27,57 @@ public class EventsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        final ArrayList<Guide> words = new ArrayList<Guide>();
+        final ArrayList<Guide> guides = new ArrayList<Guide>();
 
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.abc_event_title,
                 R.string.abc_event_description,
                 R.string.abc_event_address,
                 R.drawable.abc_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.bigdealparty_event_title,
                 R.string.bigdealparty_event_description,
                 R.string.bigdealparty_event_address,
                 R.drawable.bigdealparty_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.the_medicine_event_title,
                 R.string.the_medicine_event_description,
                 R.string.the_medicine_event_address,
                 R.drawable.the_medicine_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.travel_indoors_event_title,
                 R.string.travel_indoors_event_description,
                 R.string.travel_indoors_event_address,
                 R.drawable.travel_indoors_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.race_and_equity_event_title,
                 R.string.race_and_equity_event_description,
                 R.string.race_and_equity_event_address,
                 R.drawable.race_and_equity_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.online_dance_party_event_title,
                 R.string.online_dance_party_event_description,
                 R.string.online_dance_party_event_address,
                 R.drawable.online_dance_party_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.love_and_sex_in_christianity_event_title,
                 R.string.love_and_sex_in_christianity_event_description,
                 R.string.love_and_sex_in_christianity_event_address,
                 R.drawable.love_and_sex_in_christianity_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.international_leadership_summit_event_title,
                 R.string.the_wok_chinese_restaurant_description,
                 R.string.international_leadership_summit_event_address,
                 R.drawable.international_leadership_summit_event
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.abc_event_title,
                 R.string.abc_event_description,
                 R.string.abc_event_address,
@@ -89,7 +89,7 @@ public class EventsFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        GuideAdapter adapter = new GuideAdapter(getActivity(), words);
+        GuideAdapter adapter = new GuideAdapter(getActivity(), guides);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

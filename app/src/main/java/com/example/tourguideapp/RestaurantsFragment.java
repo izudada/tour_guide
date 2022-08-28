@@ -23,75 +23,75 @@ public class RestaurantsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        final ArrayList<Guide> words = new ArrayList<Guide>();
+        final ArrayList<Guide> guides = new ArrayList<Guide>();
 
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.piazza_restaurant_title,
                 R.string.race_and_equity_event_description,
                 R.string.piazza_restaurant_address,
                 R.drawable.piazza_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.south_66_restaurant_title,
                 R.string.south_66_restaurant_description,
                 R.string.south_66_restaurant_address,
                 R.drawable.south_66_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.asia_town_restaurant_title,
                 R.string.asia_town_restaurant_description,
                 R.string.asia_town_restaurant_address,
                 R.drawable.asia_town_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.yogurberry_restaurant_title,
                 R.string.yogurberry_restaurant_description,
                 R.string.yogurberry_restaurant_address,
                 R.drawable.yogurberry_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.spice_route_restaurant_title,
                 R.string.spice_route_restaurant_description,
                 R.string.spice_route_restaurant_address,
                 R.drawable.spice_route_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.woodhouse_cafe_restaurant_title,
                 R.string.woodhouse_cafe_restaurant_description,
                 R.string.woodhouse_cafe_restaurant_address,
                 R.drawable.woodhouse_cafe_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.buns_and_batter_restaurant_title,
                 R.string.buns_and_batter_restaurant_description,
                 R.string.buns_and_batter_restaurant_address,
                 R.drawable.buns_and_batter_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.genesis_sky_bar_restaurant_title,
                 R.string.genesis_sky_bar_restaurant_description,
                 R.string.genesis_sky_bar_restaurant_address,
                 R.drawable.genesis_sky_bar_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.the_coffee_shop_restaurant_title,
                 R.string.the_coffee_shop_restaurant_description,
                 R.string.the_coffee_shop_restaurant_address,
                 R.drawable.the_coffee_shop_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.the_wok_chinese_restaurant_title,
                 R.string.the_wok_chinese_restaurant_description,
                 R.string.the_wok_chinese_restaurant_address,
                 R.drawable.the_wok_chinese_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.cornerstore_cafe_restaurant_title,
                 R.string.cornerstore_cafe_restaurant_description,
                 R.string.cornerstore_cafe_restaurant_address,
                 R.drawable.cornerstore_cafe_restaurant
         ));
-        words.add(new Guide(
+        guides.add(new Guide(
                 R.string.crinkles_n_cream_restaurant_title,
                 R.string.crinkles_n_cream_restaurant_description,
                 R.string.crinkles_n_cream_restaurant_address,
@@ -103,7 +103,7 @@ public class RestaurantsFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        GuideAdapter adapter = new GuideAdapter(getActivity(), words);
+        GuideAdapter adapter = new GuideAdapter(getActivity(), guides);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
