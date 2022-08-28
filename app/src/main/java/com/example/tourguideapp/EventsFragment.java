@@ -25,7 +25,7 @@ public class EventsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.word_list, container, false);
+        View rootView = inflater.inflate(R.layout.guide_list, container, false);
 
         final ArrayList<Guide> guides = new ArrayList<Guide>();
 
