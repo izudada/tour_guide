@@ -7,17 +7,17 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-public class CategoryAdapter extends FragmentPagerAdapter {
+public class GuideCategoryAdapter extends FragmentPagerAdapter {
     /** Context of the app */
     private Context mContext;
 
     /**
-     * Create a new {@link CategoryAdapter} object.
+     * Create a new {@link GuideCategoryAdapter} object.
      *
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    public GuideCategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
