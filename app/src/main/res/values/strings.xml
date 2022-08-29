@@ -219,4 +219,10 @@
     <string name="cultural_centre_port_parcourt_park_address">
         Bonny Street, Port Harcourt
     </string>
+
+    <!-- Fragments Titles  -->
+    <string name="restaurant_fragment">Eatries</string>
+    <string name="event_fragment">Events</string>
+    <string name="resort_fragment">Resorts</string>
+    <string name="park_fragment">Parks</string>
 </resources>
