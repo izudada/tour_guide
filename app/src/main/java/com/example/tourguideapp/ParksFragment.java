@@ -7,58 +7,73 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ParksFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+
 public class ParksFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
     public ParksFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ParksFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ParksFragment newInstance(String param1, String param2) {
-        ParksFragment fragment = new ParksFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_parks, container, false);
+        View rootView = inflater.inflate(R.layout.guide_list, container, false);
+
+        final ArrayList<Guide> guides = new ArrayList<Guide>();
+
+        guides.add(new Guide(
+                R.string.finima_nature_park_title,
+                R.string.finima_nature_park_description,
+                R.string.finima_nature_park_address,
+                R.drawable.finima_nature_park
+        ));
+        guides.add(new Guide(
+                R.string.isaac_boro_garden_park_title,
+                R.string.isaac_boro_garden_park_description,
+                R.string.isaac_boro_garden_park_address,
+                R.drawable.isaac_boro_garden_park
+        ));
+        guides.add(new Guide(
+                R.string.garden_city_amusement_park_title,
+                R.string.garden_city_amusement_park_description,
+                R.string.garden_city_amusement_park_address,
+                R.drawable.garden_city_amusement_park
+        ));
+        guides.add(new Guide(
+                R.string.delight_zone_amusement_park_title,
+                R.string.delight_zone_amusement_park_description,
+                R.string.delight_zone_amusement_park_address,
+                R.drawable.delight_zone_amusement_park
+        ));
+        guides.add(new Guide(
+                R.string.cultural_centre_port_parcourt_park_title,
+                R.string.cultural_centre_port_parcourt_park_description,
+                R.string.cultural_centre_port_parcourt_park_address,
+                R.drawable.cultural_centre_port_parcourt_park
+        ));
+
+        // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
+        // adapter knows how to create layouts for each item in the list, using the
+        // simple_list_item_1.xml layout resource defined in the Android framework.
+        // This list item layout contains a single {@link TextView}, which the adapter will set to
+        // display a single word.
+        GuideAdapter adapter = new GuideAdapter(getActivity(), guides);
+
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link ListView} with the view ID called list, which is declared in the
+        // activity_numbers.xml layout file.
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
+        // {@link ListView} will display list items for each word in the list of words.
+        // Do this by calling the setAdapter method on the {@link ListView} object and pass in
+        // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 }
