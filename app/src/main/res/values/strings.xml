@@ -191,8 +191,32 @@
         Okrika Water front Port Harcourt, Rivers State
     </string>
 
-    <!-- Fragments Titles  -->
-    <string name="restaurant_fragment">Restaurants</string>
-    <string name="event_fragment">Events</string>
-    <string name="resort_fragment">Resorts</string>
+    <!-- Park Strings   -->
+    <string name="delight_zone_amusement_park_title">Delight Zone Amusement Park</string>
+    <string name="delight_zone_amusement_park_description">Recreation and Kiddies Fun </string>
+    <string name="delight_zone_amusement_park_address">
+        Off Sani Abacha Road, G.R.A Phase 3, Port Harcourt
+    </string>
+    <string name="finima_nature_park_title">Finima Nature Park</string>
+    <string name="finima_nature_park_description"> Nature, Wildlife </string>
+    <string name="finima_nature_park_address"> NLNG Bonny Island,Rivers State </string>
+    <string name="isaac_boro_garden_park_title"> Isaac Boro Garden Park</string>
+    <string name="isaac_boro_garden_park_description">
+        Live music | Outdoor activities | Hang-out
+    </string>
+    <string name="isaac_boro_garden_park_address">
+        Old GRA, Mile 1, Aba - Port Harcourt expressway
+    </string>
+    <string name="garden_city_amusement_park_title"> Garden City Amusement Park</string>
+    <string name="garden_city_amusement_park_description"> Recreation | Fun </string>
+    <string name="garden_city_amusement_park_address">
+        Plot GRA Phase 1, 41 Birabi Street, Port Harcourt
+    </string>
+    <string name="cultural_centre_port_parcourt_park_title"> Cultural Centre, Port Harcourt</string>
+    <string name="cultural_centre_port_parcourt_park_description">
+        Shops, Auditorium, Local artifacts
+    </string>
+    <string name="cultural_centre_port_parcourt_park_address">
+        Bonny Street, Port Harcourt
+    </string>
 </resources>
