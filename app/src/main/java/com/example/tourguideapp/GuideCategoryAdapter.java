@@ -31,8 +31,10 @@ public class GuideCategoryAdapter extends FragmentPagerAdapter {
             return new EventsFragment();
         } else if (position == 1) {
             return new ResortsFragment();
-        } else {
+        } else if (position == 2){
             return new RestaurantsFragment();
+        } else {
+            return new ParksFragment();
         }
     }
 
@@ -51,8 +53,10 @@ public class GuideCategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.event_fragment);
         } else if (position == 1) {
             return mContext.getString(R.string.resort_fragment);
-        } else {
+        } else if (position == 2){
             return mContext.getString(R.string.restaurant_fragment);
+        } else {
+            return mContext.getString(R.string.park_fragment);
         }
     }
 }
