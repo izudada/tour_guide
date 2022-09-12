@@ -8,6 +8,9 @@ Tour Guide App
 This app displays lists of tourist avenues in the city of Port Harcourt, Nigeria.
 Used in a Udacity course in the Beginning Android Nanodegree.
 
+## Initial Preview
+![App Image](image_of_tour_guide_app.jpeg)
+
 
 How to use this repository
 --------------
